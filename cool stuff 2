@@ -1,0 +1,515 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local idkextra = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local creds = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local credit = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local funsies = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local player = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local troll = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local trollge = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_13 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local UICorner_15 = Instance.new("UICorner")
+local UIDragDetector = Instance.new("UIDragDetector")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(175, 7, 10)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0827532858, 0, 0.127710849, 4)
+Frame.Size = UDim2.new(0, 927, 0, 540)
+Frame.Visible = false
+UIDragDetector.Parent = Frame
+
+idkextra.Name = "idk extra"
+idkextra.Parent = Frame
+idkextra.BackgroundColor3 = Color3.fromRGB(113, 4, 8)
+idkextra.BorderColor3 = Color3.fromRGB(0, 0, 0)
+idkextra.BorderSizePixel = 0
+idkextra.Position = UDim2.new(-0.000872006058, 0, -0.00163540314, 0)
+idkextra.Size = UDim2.new(0, 927, 0, 123)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.024535276, 0, 0.0394491144, 0)
+ImageLabel.Size = UDim2.new(0, 501, 0, 77)
+ImageLabel.Image = "rbxassetid://10131960150"
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.87378639, 0, 0.0166666675, 0)
+ImageLabel_2.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel_2.Image = "rbxassetid://10872004866"
+
+UICorner.CornerRadius = UDim.new(0, 29)
+UICorner.Parent = Frame
+
+creds.Name = "creds"
+creds.Parent = Frame
+creds.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+creds.BorderColor3 = Color3.fromRGB(0, 0, 0)
+creds.BorderSizePixel = 0
+creds.Position = UDim2.new(0.0237324703, 0, 0.274074078, 0)
+creds.Size = UDim2.new(0, 200, 0, 50)
+creds.Font = Enum.Font.Unknown
+creds.Text = "credits"
+creds.TextColor3 = Color3.fromRGB(255, 255, 255)
+creds.TextSize = 20.000
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = creds
+
+credit.Name = "credit"
+credit.Parent = Frame
+credit.BackgroundColor3 = Color3.fromRGB(46, 126, 255)
+credit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credit.BorderSizePixel = 0
+credit.Position = UDim2.new(0.269946039, 0, 0.274074078, 0)
+credit.Size = UDim2.new(0, 649, 0, 362)
+credit.Visible = false
+
+TextLabel.Parent = credit
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.355932206, 0, 0.113259666, 0)
+TextLabel.Size = UDim2.new(0, 186, 0, 50)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "owner of le script: kaden"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 39.000
+
+TextLabel_2.Parent = credit
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.355932206, 0, 0.334254146, 0)
+TextLabel_2.Size = UDim2.new(0, 186, 0, 50)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "dit me vingroup"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 39.000
+
+ImageLabel_3.Parent = credit
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.086286597, 0, 0.524861872, 0)
+ImageLabel_3.Size = UDim2.new(0, 160, 0, 128)
+ImageLabel_3.Image = "rbxassetid://10131837449"
+
+TextLabel_3.Parent = credit
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.355932206, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 186, 0, 50)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "sponsored by mossad and idf"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 13.000
+
+ImageLabel_4.Parent = credit
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.355932206, 0, 0.524861872, 0)
+ImageLabel_4.Size = UDim2.new(0, 160, 0, 128)
+ImageLabel_4.Image = "rbxassetid://13958331627"
+
+ImageLabel_5.Parent = credit
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.628659487, 0, 0.524861872, 0)
+ImageLabel_5.Size = UDim2.new(0, 160, 0, 128)
+ImageLabel_5.Image = "rbxassetid://125621016751049"
+
+funsies.Name = "funsies"
+funsies.Parent = Frame
+funsies.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+funsies.BorderColor3 = Color3.fromRGB(0, 0, 0)
+funsies.BorderSizePixel = 0
+funsies.Position = UDim2.new(0.269946039, 0, 0.274074078, 0)
+funsies.Size = UDim2.new(0, 649, 0, 362)
+funsies.Visible = false
+
+TextButton.Parent = funsies
+TextButton.BackgroundColor3 = Color3.fromRGB(84, 0, 1)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0453040749, 0, 0.0613668859, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "infjump"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+TextButton.MouseButton1Click:Connect(function()
+	local InfiniteJumpEnabled = true
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		if InfiniteJumpEnabled then
+			game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+		end
+	end)
+end)
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = funsies
+TextButton_2.BackgroundColor3 = Color3.fromRGB(84, 0, 1)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0453040749, 0, 0.265786767, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.Unknown
+TextButton_2.Text = "noclip"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 20.000
+TextButton_2.MouseButton1Click:Connect(function()
+	local Noclip = nil
+	local Clip = nil
+
+	function noclip()
+		Clip = false
+		local function Nocl()
+			if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+				for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+						v.CanCollide = false
+					end
+				end
+			end
+			wait(0.21) -- basic optimization
+		end
+		Noclip = game:GetService('RunService').Stepped:Connect(Nocl)
+	end
+
+	function clip()
+		if Noclip then Noclip:Disconnect() end
+		Clip = true
+	end
+
+	noclip() -- to toggle noclip() and clip()
+end)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = funsies
+TextButton_3.BackgroundColor3 = Color3.fromRGB(84, 0, 1)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0453040749, 0, 0.470206678, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.Unknown
+TextButton_3.Text = "fly"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 20.000
+TextButton_3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thraxxyz/SkibidiScripts/refs/heads/main/FlyV1"))()
+end)
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = TextButton_3
+
+TextButton_4.Parent = funsies
+TextButton_4.BackgroundColor3 = Color3.fromRGB(84, 0, 1)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.506012857, 0, 0.470206738, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 136)
+TextButton_4.Font = Enum.Font.Unknown
+TextButton_4.Text = "command"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 20.000
+TextButton_4.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = TextButton_4
+
+ImageLabel_6.Parent = TextButton_4
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Size = UDim2.new(0, 200, 0, 136)
+ImageLabel_6.Image = "rbxassetid://115810237733262"
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = ImageLabel_6
+
+player.Name = "player"
+player.Parent = Frame
+player.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+player.BorderColor3 = Color3.fromRGB(0, 0, 0)
+player.BorderSizePixel = 0
+player.Position = UDim2.new(0.0237324703, 0, 0.438888878, 0)
+player.Size = UDim2.new(0, 200, 0, 50)
+player.Font = Enum.Font.Unknown
+player.Text = "player"
+player.TextColor3 = Color3.fromRGB(255, 255, 255)
+player.TextSize = 20.000
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = player
+
+troll.Name = "troll"
+troll.Parent = Frame
+troll.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+troll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+troll.BorderSizePixel = 0
+troll.Position = UDim2.new(0.0237324703, 0, 0.601851881, 0)
+troll.Size = UDim2.new(0, 200, 0, 50)
+troll.Font = Enum.Font.Unknown
+troll.Text = "troll"
+troll.TextColor3 = Color3.fromRGB(255, 255, 255)
+troll.TextSize = 20.000
+
+UICorner_11.CornerRadius = UDim.new(0, 10)
+UICorner_11.Parent = troll
+
+trollge.Name = "trollge"
+trollge.Parent = Frame
+trollge.BackgroundColor3 = Color3.fromRGB(234, 255, 0)
+trollge.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trollge.BorderSizePixel = 0
+trollge.Position = UDim2.new(0.269946039, 0, 0.274074078, 0)
+trollge.Size = UDim2.new(0, 649, 0, 362)
+trollge.Visible = false
+
+TextButton_5.Parent = trollge
+TextButton_5.BackgroundColor3 = Color3.fromRGB(188, 150, 35)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.345766336, 0, 0.602803349, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.Unknown
+TextButton_5.Text = "yeet"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 20.000
+TextButton_5.MouseButton1Click:Connect(function()
+	local lp = game:FindService("Players").LocalPlayer
+
+	local function gplr(String)
+		local Found = {}
+		local strl = String:lower()
+		if strl == "all" then
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				table.insert(Found,v)
+			end
+		elseif strl == "others" then
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				if v.Name ~= lp.Name then
+					table.insert(Found,v)
+				end
+			end 
+		elseif strl == "me" then
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				if v.Name == lp.Name then
+					table.insert(Found,v)
+				end
+			end 
+		else
+			for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+				if v.Name:lower():sub(1, #String) == String:lower() then
+					table.insert(Found,v)
+				end
+			end 
+		end
+		return Found 
+	end
+	
+	local function notif(str,dur)
+		game:FindService("StarterGui"):SetCore("SendNotification", {
+			Title = "yeetgatron v3",
+			Text = str,
+			Icon = "rbxassetid://2005276185",
+			Duration = dur or 3
+		})
+	end
+
+	
+	local Target = gplr(TextBox_3.Text)
+	if Target[1] then
+		Target = Target[1]
+
+		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
+		Thrust.Force = Vector3.new(9999,9999,9999)
+		Thrust.Name = "YeetForce"
+		repeat
+			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
+			Thrust.Location = Target.Character.HumanoidRootPart.Position
+			game:FindService("RunService").Heartbeat:wait()
+		until not Target.Character:FindFirstChild("Head")
+	else
+		notif("not le player nigger")
+	end
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 10)
+UICorner_12.Parent = TextButton_5
+
+TextBox_3.Parent = trollge
+TextBox_3.BackgroundColor3 = Color3.fromRGB(188, 150, 35)
+TextBox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.BorderSizePixel = 0
+TextBox_3.Position = UDim2.new(0.0616332814, 0, 0.110497236, 0)
+TextBox_3.Size = UDim2.new(0, 567, 0, 147)
+TextBox_3.Font = Enum.Font.Unknown
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.TextSize = 20.000
+TextBox_3.TextTransparency = 0.600
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = TextBox_3
+
+ImageLabel_7.Parent = Frame
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.0237324703, 0, 0.746296287, 0)
+ImageLabel_7.Size = UDim2.new(0, 200, 0, 100)
+ImageLabel_7.Image = "rbxassetid://140241363702254"
+
+TextButton_6.Parent = ScreenGui
+TextButton_6.BackgroundColor3 = Color3.fromRGB(203, 71, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.854358912, 16, 0.627086222, -166)
+TextButton_6.Size = UDim2.new(0, 141, 0, 130)
+TextButton_6.Font = Enum.Font.Unknown
+TextButton_6.Text = "toggle"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 20.000
+
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = TextButton_6
+
+ImageLabel_8.Parent = TextButton_6
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Position = UDim2.new(0.143439546, 0, 0.101538554, 0)
+ImageLabel_8.Size = UDim2.new(0, 100, 0, 93)
+ImageLabel_8.Image = "rbxassetid://14216567446"
+
+UICorner_15.CornerRadius = UDim.new(0, 1000)
+UICorner_15.Parent = ImageLabel_8
+
+-- Scripts:
+
+local function ADDCH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local a = script.Parent.TextButton
+	local b = script.Parent.Frame
+	
+	a.MouseButton1Click:Connect(function()
+		b.Visible = not b.Visible
+	end)
+end
+coroutine.wrap(ADDCH_fake_script)()
+local function EGTF_fake_script() -- creds.LocalScript 
+	local script = Instance.new('LocalScript', creds)
+
+	local a = script.Parent
+	local one = script.Parent.Parent.credit
+	local two = script.Parent.Parent.funsies
+	local tres = script.Parent.Parent.trollge
+	
+	a.MouseButton1Click:Connect(function()
+		one.Visible = true
+		two.Visible = false
+		tres.Visible = false
+	end)
+	
+end
+coroutine.wrap(EGTF_fake_script)()
+local function SKQOU_fake_script() -- player.LocalScript 
+	local script = Instance.new('LocalScript', player)
+
+	local a = script.Parent
+	local one = script.Parent.Parent.credit
+	local two = script.Parent.Parent.funsies
+	local tres = script.Parent.Parent.trollge
+	
+	a.MouseButton1Click:Connect(function()
+		one.Visible = false
+		two.Visible = true
+		tres.Visible = false
+	end)
+	
+end
+coroutine.wrap(SKQOU_fake_script)()
+local function WYTAHXN_fake_script() -- troll.LocalScript 
+	local script = Instance.new('LocalScript', troll)
+
+	local a = script.Parent
+	local one = script.Parent.Parent.credit
+	local two = script.Parent.Parent.funsies
+	local tres = script.Parent.Parent.trollge
+	
+	a.MouseButton1Click:Connect(function()
+		one.Visible = false
+		two.Visible = false
+		tres.Visible = true
+	end)
+	
+end
+coroutine.wrap(WYTAHXN_fake_script)()
