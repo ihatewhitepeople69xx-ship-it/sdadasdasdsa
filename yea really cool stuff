@@ -1,0 +1,156 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextButton_3 = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.888631105, 0, 0.409423381, 0)
+TextButton.Size = UDim2.new(0, 117, 0, 118)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner.Parent = TextButton
+
+ImageLabel.Parent = TextButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0683760718, 0, 0.0762711838, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxassetid://115908420923805"
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0564339645, 0, 0.116867468, 0)
+Frame.Size = UDim2.new(0, 864, 0, 620)
+Frame.Visible = false
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(2, 55, 183)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.158624172, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 441, 0, 86)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "israel sex mossad approved"
+TextLabel.TextColor3 = Color3.fromRGB(2, 55, 183)
+TextLabel.TextSize = 51.000
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.780859888, 0, 0.0492115766, 0)
+ImageLabel_2.Size = UDim2.new(0, 136, 0, 477)
+ImageLabel_2.Image = "rbxassetid://124834339777947"
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(2, 55, 183)
+TextButton_2.BorderColor3 = Color3.fromRGB(2, 55, 183)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.122051932, 0, 0.151478037, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.Bangers
+TextButton_2.Text = "IDF MOD PANEL"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+ImageLabel_3.Parent = Frame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.613355994, 0, 0.35146901, 0)
+ImageLabel_3.Size = UDim2.new(0, 109, 0, 102)
+ImageLabel_3.Image = "rbxassetid://135984657597137"
+
+ImageLabel_4.Parent = Frame
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.520287812, 0, 0.130211234, 0)
+ImageLabel_4.Size = UDim2.new(0, 172, 0, 106)
+ImageLabel_4.Image = "rbxassetid://2691749281"
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(2, 55, 183)
+TextButton_3.BorderColor3 = Color3.fromRGB(2, 55, 183)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.118200026, 0, 0.301324844, 0)
+TextButton_3.Size = UDim2.new(0, 324, 0, 50)
+TextButton_3.Font = Enum.Font.Bangers
+TextButton_3.Text = "ORTHODOX DANCE PARTY"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/FEEGGEG/refs/heads/main/%5BFE%5D%20Energize%20Animation%20Gui.txt'))()
+end)
+
+ImageLabel_5.Parent = Frame
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.802973986, 0, 0.819063008, 0)
+ImageLabel_5.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel_5.Image = "rbxassetid://13958331627"
+
+ImageLabel_6.Parent = Frame
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.499654084, 0, 0.5476439, 0)
+ImageLabel_6.Size = UDim2.new(0, 139, 0, 195)
+ImageLabel_6.Image = "rbxassetid://170036016"
+
+ImageLabel_7.Parent = Frame
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.158585221, 0, 0.427397937, 0)
+ImageLabel_7.Size = UDim2.new(0, 246, 0, 269)
+ImageLabel_7.Image = "rbxassetid://115908420923805"
+
+UICorner_2.Parent = Frame
+
+-- Scripts:
+
+local function RQHSHL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local Frame = script.Parent.Frame
+	local Toggle = script.Parent.TextButton
+	
+	Toggle.MouseButton1Click:Connect(function()
+		Frame.Visible = not Frame.Visible
+	end)
+end
+coroutine.wrap(RQHSHL_fake_script)()
