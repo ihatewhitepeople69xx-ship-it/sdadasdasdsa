@@ -23,6 +23,7 @@ local idk = Instance.new("UIDragDetector")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
 TextButton.Parent = ScreenGui
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -34,7 +35,6 @@ TextButton.Size = UDim2.new(0, 178, 0, 142)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
-TextButton.ResetOnSpawn = false
 
 ImageLabel.Parent = TextButton
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
